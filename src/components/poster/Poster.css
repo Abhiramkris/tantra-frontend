@@ -22,6 +22,7 @@
   opacity: 0;
   transition: opacity 0.5s ease, transform 0.5s ease;
   z-index: 2;
+  overflow-y:hidden;
 }
 
 .fade-text.visible {
@@ -192,6 +193,7 @@
 /* Make sure the fill div is scrollable */
 .fill {
   min-height: 80vh; /* Added to allow scrolling */
+
 }
 
 /* New scale animation class - this won't interfere with fade-up */
